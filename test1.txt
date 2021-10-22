@@ -1,0 +1,11 @@
+/* this is comment for this sample code which
+   calculates the sum of two numbers   */
+function CalcSum (var1 int, var2 int)
+{
+	result = 0;
+    	result = var1 + var2;
+    	return result;
+}
+$$
+put(a+b);
+$$
