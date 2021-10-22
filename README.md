@@ -1,8 +1,10 @@
 # Rat20F Compiler
 Simply run the command 
+
 	```console 
 	Syntax.exe input_text.txt output_text.txt 
 	```
+
 The console will output if the inputted code is valid according to the rules below. The output file will contain a lexical analysis of the code.
 
 
