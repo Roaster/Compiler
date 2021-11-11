@@ -96,73 +96,44 @@ $$
          } 
 
  $$
+ ```
  
 Assembly code with symbol table
+```
 --------Symbol Table--------
 high   5001    int
 low   5000    int
 step   5002    int
 --------Assembly Instructions--------
-
 1  PUSHI      0
-
 2  PUSHM      2
-
 3  PUSHI      1
-
 4    SUB
-
 5    DIV
-
 6  PUSHI      2
-
-
 7    DIV
-
 8  STDIN
-
 9   POPM   5000
-
 10  PUSHM   5001
-
 11  PUSHM   5002
-
 12  LABEL
-
 13  PUSHM   5000
-
 14  PUSHM   5001
-
 15    EQU
-
 16  PUSHM   5000
-
 17  PUSHM   5001
-
 18    LES
-
 19    ADD
-
 20  JUMPZ     31
-
 21  PUSHM   5000
-
 22 STDOUT
-
 23  PUSHM      2
-
 24  PUSHM   5000
-
 25 STDOUT
-
 26  PUSHM   5000
-
 27  PUSHM   5002
-
 28    ADD
-
 29   POPM   5000
-
 30   JUMP     12
 ```
 
