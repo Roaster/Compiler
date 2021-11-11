@@ -1,4 +1,4 @@
-# Rat20F Compiler
+# Compiler
 Simply run the following command:
 
 	rat20f.exe <input_text location>.txt <output_text location>.txt 
