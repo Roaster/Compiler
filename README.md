@@ -77,7 +77,7 @@ Compiler created for Rat20F programming language. The syntax rules are as follow
 
 Starting Code found in test4.txt
 
-`/* this is comment for this sample code which
+```/* this is comment for this sample code which
    converts  Fahrenheit into Celcius */
 
 function convert1x (fahr int)
@@ -95,7 +95,7 @@ $$
              low =  low  +  step;
          } 
 
- $$`
+ $$```
  
 ` Assembly code with symbol table
 --------Symbol Table--------
